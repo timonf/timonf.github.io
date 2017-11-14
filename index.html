@@ -1,10 +1,71 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
 <title>Timon's GitHub page</title>
-</head>
-<body>
-Nothing to see here, sorry!
-</body>
-</html>
+<style>
+html {font: 11pt/18pt Helvetica,Arial,sans-serif}
+body {margin: 0 auto; max-width: 800px; padding-top: calc(2rem + 18pt); color: #112}
+old,warning {background: #A34; display: block; padding: 1rem; margin: 0 -5px; color: #fff}
+header {box-sizing: border-box; background: #eee;margin: 0 -5px; overflow-x: auto; white-space: nowrap; position: fixed; left: 0; right: 0; top: 0; box-shadow: inset 0 -.2rem 0 #bbc}
+header nav {margin: 0 auto; max-width: 800px; box-sizing: border-box;}
+header span {font-family: monospace;cursor: default; margin-right: 1rem}
+header a {display: inline-block; padding: 1rem;text-decoration: none; transition: background-color 250ms; font-weight: 700; text-transform: uppercase;}
+header a.active, header a:active {padding-bottom: .8rem; border-bottom: .2rem solid #438}
+header a, header a:link {color: #438}
+header a:hover, header a:focus {background: #bbc}
+footer {border-top: 1px solid #bbc; padding-top: .5rem; color: #bbc}
+footer nav {display: inline-block;}
+footer nav a {margin: 0 0 0 1rem}
+footer nav.imprint {float: right}
+footer a, footer a:link {color: #bbc}
+a, a:link {color: #438}
+h1,h2,h3 {font-family: Georgia,Times,sans-serif; color: #223; line-height: 1.2em}
+h1,h2 {border-bottom: 1px solid #bbc}
+h1:before{content:'# '}
+h1:after{content:''}
+h2:before{content:'## '}
+h2:after{content:''}
+h1:before,h2:before,h1:after,h2:after{font-size: .5em; opacity: .5; font-family: monospace; font-weight: normal;}
+@media (max-width: 810px) {
+  body {margin: 0 5px; padding-top: calc(2rem + 18pt + 1rem)}
+  header span {display: block; text-align: center; background: #008; margin: 0; color: #fff}
+  footer {text-align:center;}
+  footer nav {display: inline;}
+  footer nav a {margin: 0 1rem}
+  footer nav.imprint {float: none;}
+}
+</style>
+</head><body>
+
+<header>
+<nav>
+  <span>Timon's page</span>
+  <a href=/ class=active>About</a>
+</nav>
+</header>
+<old rel=noindex>Sorry, you are using an old browser / or JavaScript is disabled!</old><script>try{document.querySelectorAll("old").forEach(e => e.parentNode.removeChild(e));}catch(ex){}</script>
+<h1>Welcome</h1>
+<p>Hi there! My name is Timon and I'm a web developer located in Cologne. On these pages you can see my projects and public profiles.</p>
+<p>My main focus is target on <em>PHP</em> and <em>Symfony</em> applications. I'm also interested in JavaScript and other stuff like this.</p>
+
+<h2>Attended events</h2>
+<p>The <a href="https://www.meetup.com/de-DE/sfugcgn/">Symfony User Group Cologne</a> is a good way to meet me. You can find me also on many conferences as vistor:</p>
+<ul>
+  <li><a href=https://joind.in/event/symfonylive-berlin-2017>SymfonyLive Berlin 2017</a></li>
+  <li><a href=https://joind.in/event/symfonylive-cologne-2017-2017>SymfonyLive Cologne 2017</a></li>
+  <li><a href=https://joind.in/event/symfonycon-berlin-2016>SymfonyCon Berlin 2016</a></li>
+  <li><a href=https://joind.in/event/symfonylive-cologne-2016>SymfonyLive Cologne 2016</a></li>
+  <li><a href=https://joind.in/event/symfonylive-berlin-2014>SymfonyLive Berlin 2014</a></li>
+</ul>
+
+<footer>
+  &copy; Timon F.
+  <nav>
+    <a target=_blank href=https://twitter.com/t1m0n title="Follow me on Twitter">@t1m0n</a>
+    <a target=_blank href=https://github.com/timonf title="Fork me on GitHub">GitHub</a>
+    <a target=_blank href=https://connect.sensiolabs.com/profile/timon title="My profile on SensioLabs Connect">SensioLabs Connect</a>
+    <a target=_blank href=https://en.interlutions.de/contact title="Hire me via Interlutions">Hire me!</a>
+  </nav>
+  <nav class="imprint">
+    <a target=_blank href=http://imprint.timonf.de title="Imprint / Impressum" rel=nofollow>Imprint</a>
+  </nav>
+</footer>
+</body></html>
