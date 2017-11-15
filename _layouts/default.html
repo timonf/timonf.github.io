@@ -43,7 +43,7 @@ h1:before,h2:before,h1:after,h2:after{font-size: .5em; opacity: .5; font-family:
 <header>
 <nav>
   <span>Timon's page</span>
-  <a href=/{% page.slug == 'about' %} class=active {% endif %}>About</a>
+  <a href=/{% if page.slug == 'about' %} class=active {% endif %}>About</a>
 </nav>
 </header>
 <old rel=noindex>Sorry, you are using an old browser / or JavaScript is disabled!</old><script>try{document.querySelectorAll("old").forEach(e => e.parentNode.removeChild(e));}catch(ex){}</script>
