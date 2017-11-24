@@ -1,5 +1,5 @@
 ---
-title: Timon's GitHub page
+title: Timon's page
 slug: about
 ---
 
@@ -10,6 +10,9 @@ pages you can see my projects and public profiles.
 
 My main focus is targeted on _PHP_ and _Symfony_ applications. I'm also
 interested in JavaScript and other stuff like this.
+
+I have also a lot of other interests: Going to festivals and concerts,
+traveling and build models with some bricks.
 
 ## Attended events
 
